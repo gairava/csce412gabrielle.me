@@ -1,0 +1,124 @@
+body{
+    height: 100%;
+    margin: 5%;
+    background-color: rgb(255, 238, 255);
+    display: flex;
+    align-items: center;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: purple;
+}
+h1, h2, h3 {
+    text-align: center;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    text-shadow: 1px 1px 5px plum;
+}
+button{
+    color: transparent; 
+    background-color: transparent; 
+    border-color: transparent;
+    border-radius: 100%;
+    position:relative;
+    width:35px;
+    height:35px;
+}
+button img {
+   position:absolute;
+   top: 50%;
+   left:50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%); 
+}
+button:hover{
+    background-color: purple;
+    box-shadow: 0 0 5px purple;
+}
+button img:hover{
+    filter: invert(100%);
+}
+.text-link-h{
+    color: white;
+}
+.text-link-h:hover {
+    color: pink;
+}
+.nav-link{
+    font-size: 40px;
+    margin: 20px;
+    display: flex;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px purple;
+}
+.nav-link:hover{
+    text-shadow: 1px 1px 5px purple;
+}
+.nav-logos{
+    margin-left: 20%;
+}
+.landing-img, .qualifications-img, .service-img{
+    width: 100%;
+    box-shadow: 0 0 10px purple;
+}
+.landing-img{
+    margin-right: 0;
+}
+.qualifications-img, .service-img{
+    margin-top: 20px;
+}
+
+.common-body{
+    flex: 100%;
+    margin: 5%;
+    width: 100%;
+}
+.common-title{
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+}
+.common-bubble{
+    box-shadow: 0 0 10px purple;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+
+}
+.portfolio-column-imgl, .portfolio-column-imgr{
+    width: 100%;
+}
+.portfolio-img{
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 0 5px purple;
+}
+.portfolio-img:hover{
+    box-shadow: 0 0 10px purple;
+}
+.qualifications-page-body{
+    display: flex;
+}
+.qualifications-body{
+    margin: 5%;
+}
+.qualifications-resume2{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 0 10px purple;
+}
+.qualifications-resume, .qualifications-title2{
+    opacity: 0;
+    height: 0px;
+    width: 0px;
+
+}
+

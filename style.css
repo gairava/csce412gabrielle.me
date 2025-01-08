@@ -1,0 +1,147 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgb(255, 255, 255),  rgb(255, 255, 255), rgb(255, 255, 255),rgb(255, 255, 255), rgba(255,0,0,0));
+}
+h1{
+    font-family: Georgia, serif; 
+    font-size: 44px;
+}
+h2, p, li, a{
+    font-family: Arial, sans-serif;
+}
+h2 {
+    font-style: italic;
+    font-size: xx-large;
+}
+button{
+    color: transparent; 
+    background-color: transparent; 
+    border-color: transparent;
+    border-radius: 100%;
+    position:relative;
+    width:35px;
+    height:35px;
+ }
+ 
+button img {
+   position:absolute;
+   top: 50%;
+   left:50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
+button:hover{
+    background-color: pink;
+    box-shadow: 0 0 5px pink;
+}
+li{
+    padding: 2px;
+    margin-left: 10%;
+    text-align: left;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.nav-link:hover{
+    border-radius: 100px;
+    background-color: pink;
+    padding: 5px;
+    box-shadow: 0 0 5px pink;
+}
+.text-link, .text-link-h{
+    text-decoration: underline;
+}
+.text-link:hover, .text-link-h:hover{
+    color:blue;
+}
+
+.index-header, .portfolio-header, .qualifications-header, .service-header{
+    height: 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.index-header{
+    background-image: url('images/landing-header.jpg');
+}
+.portfolio-header{
+    background-image: url('images/portfolio-header.jpg');
+}
+.qualifications-header{
+    background-image: url('images/qualification-header.jpg');
+}
+.service-header{
+    background-image: url('images/service-header.JPG');
+}
+
+.common-title, .qualifications-title1{
+    font-size: medium;
+    text-align: center;
+}
+.common-bubble {
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: pink;
+    box-shadow: 0 0 20px pink;
+}
+
+.qualifications-body{
+    display:flex;
+}
+.qualifications-column{
+    flex: 33.33%;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(255, 192, 203);
+    text-align: center;
+    box-shadow: 0 0 20px pink;
+}
+.qualifications-resume{
+    box-shadow: 0 0 5px black;
+    height: 100%;
+    width: 100%;
+}
+
+.portfolio-body{
+    display:flex;
+}
+.portfolio-column-textl, .portfolio-column-textr, .portfolio-column-imgr, .portfolio-column-imgl{
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background-color: rgb(255, 192, 203);
+    text-align: center;
+    box-shadow: 0 0 20px pink;
+}
+.portfolio-column-textl, .portfolio-column-textr{
+    flex: 30%;
+}
+.portfolio-column-imgl, .portfolio-column-imgr{
+    flex: 70%;
+}
+.portfolio-img{
+    width: 95%;
+    box-shadow: 0 0 5px black;
+}
+.portfolio-img:hover{
+    width: 100%;
+    box-shadow: 0 0 20px black;
+}
+.landing-img, .qualifications-img, .service-img, .qualifications-resume2, .qualifications-title2{
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
